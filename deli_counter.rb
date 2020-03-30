@@ -12,3 +12,8 @@ def line(array)
     puts "The line is currently: #{newer_array}"
   end
 end
+
+take_a_number(array, string)
+  array.push(string)
+  puts "Welcome, #{string}. You are number #{array.count} in line."
+end
