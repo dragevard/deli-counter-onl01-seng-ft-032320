@@ -7,7 +7,7 @@ def line(array)
     array.each do |name|
       new_array.push(#{counter}. #{name})
       counter += 1
-      puts "The line is currently:#{new_array.join(" ")}"
+      puts "The line is currently: #{new_array.join(" ")}"
     end
   end
 end
