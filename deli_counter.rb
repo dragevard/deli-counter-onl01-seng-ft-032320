@@ -10,8 +10,3 @@ def line(array)
       puts "The line is currently: #{new_array.join(" ")}."
   end
 end
-
-def take_a_number(array, string)
-  array.push(string)
-  puts "Welcome, #{string}. You are number #{array.count} in line."
-end
