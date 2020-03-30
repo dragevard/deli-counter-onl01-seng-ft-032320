@@ -9,6 +9,6 @@ def line(array)
       counter += 1
     end
     newer_array = new_array.join(" ")
-    puts "The line is currently: #{newer_array}."
+    puts "The line is currently: #{newer_array}"
   end
 end
