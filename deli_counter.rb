@@ -9,4 +9,3 @@ def line(array)
       counter += 1
       puts "The line is currently: #{new_array.join(" ")}."
   end
-end
