@@ -8,7 +8,7 @@ def line(array)
       new_array.push("#{counter}. #{name}")
       counter += 1
     end
-    newer_array = array.join(" ")
+    newer_array = new_array.join(" ")
     puts "The line is currently: #{newer_array}."
   end
 end
